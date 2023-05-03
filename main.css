@@ -4,8 +4,8 @@ body {
 }
 
 @font-face {
-  src: url(DarkPalladin-qoGx.ttf);
-  font-family: DarkPalladin;
+  src: url(DarkDimension-ollx.ttf);
+  font-family: DarkDimension;
   
 }
 
@@ -13,12 +13,13 @@ body {
   display:flex;
   width:15%;
   margin-left: 40%;
-  font-family: DarkPalladin;
+  font-family: DarkDimension;
 }
 
 
 #sorting {
   display:flex;
+  justify-content:center;
   margin-left:35%;
   
   
@@ -31,15 +32,42 @@ body {
 
 .card {
   border-radius:20px;
-  font-family: DarkPalladin;
+  font-family: DarkDimension;
+  
 }
 
 .form {
-  font-family:DarkPalladin;
+  font-family:DarkDimension;
+}
+
+
+#expelled-students {
+  display:flex;
+  gap: 10px;
+  justify-content:space-between;
+  
 }
 
 #army {
   color:white;
+  display:flex;
+  justify-content:center;
+  font-family:DarkDimension;
+}
+
+.voldy {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:20px;
+  
+
+}
+#army-card {
+  display:flex;
+  gap: 20px;
+  justify-content:space-between;
+
 }
 
 
