@@ -1,0 +1,47 @@
+body {
+  background-image:url("https://st2.depositphotos.com/3776273/9208/i/450/depositphotos_92087088-stock-photo-great-black-gradient-background.jpg")
+  
+}
+
+@font-face {
+  src: url(DarkPalladin-qoGx.ttf);
+  font-family: DarkPalladin;
+  
+}
+
+.house-btn {
+  display:flex;
+  width:15%;
+  margin-left: 40%;
+  font-family: DarkPalladin;
+}
+
+
+#sorting {
+  display:flex;
+  margin-left:35%;
+  
+  
+}
+
+#app {
+  display:flex;
+  gap:10px;
+}
+
+.card {
+  border-radius:20px;
+  font-family: DarkPalladin;
+}
+
+.form {
+  font-family:DarkPalladin;
+}
+
+#army {
+  color:white;
+}
+
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-3/oth258.cur), auto !important;} /* End https://www.cursors-4u.com */
