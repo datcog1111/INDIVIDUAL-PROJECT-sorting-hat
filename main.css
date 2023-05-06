@@ -4,16 +4,44 @@ body {
 }
 
 @font-face {
-  src: url(DarkDimension-ollx.ttf);
-  font-family: DarkDimension;
+  src: url(UbuntuMono-KyeD.ttf);
+  font-family: UbuntuMono;
   
 }
 
 .house-btn {
   display:flex;
   width:15%;
-  margin-left: 40%;
-  font-family: DarkDimension;
+  margin-left: 25%;
+  font-family: UbuntuMono;
+  border-radius:20px;
+  
+  gap:10px;
+}
+
+#all-btn {
+border:3px solid black;
+border-radius:15px;
+
+}
+#gryffindor-btn {
+  border:3px solid black;
+  border-radius:15px;
+}
+
+#hufflepuff-btn {
+  border:3px solid black;
+  border-radius:15px;
+}
+
+#slytherin-btn {
+  border: 3px solid black;
+  border-radius:15px;
+}
+
+#ravenclaw-btn {
+  border: 3px solid black;
+  border-radius:15px;
 }
 
 
@@ -25,34 +53,58 @@ body {
   
 }
 
+.container {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  
+}
+
+#army-card {
+  background-color:red;
+}
+
+.expelled {
+  display:flex;
+ gap:10px;
+  max-height:500px;
+
+}
+
 #app {
   display:flex;
+  flex-wrap:wrap;
   gap:10px;
+  max-width:700px;
 }
 
 .card {
   border-radius:20px;
-  font-family: DarkDimension;
+  font-family: UbuntuMono;
   
 }
 
-.form {
-  font-family:DarkDimension;
+form {
+  font-family:UbuntuMono;
 }
 
 
-#expelled-students {
-  display:flex;
-  gap: 10px;
-  justify-content:space-between;
-  
+
+
+
+#exampleModalLabel {
+  font-family:UbuntuMono;
 }
 
-#army {
+
+
+
+.army {
   color:white;
   display:flex;
+  margin-left:40%;
   justify-content:center;
-  font-family:DarkDimension;
+  font-family:UbuntuMono;
 }
 
 .voldy {
