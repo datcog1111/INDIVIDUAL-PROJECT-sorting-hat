@@ -99,7 +99,7 @@ const createStudent = (e) => {
   const newStudentObj = {
     id: students.length + 1,
     name: document.querySelector('#name').value,
-    House: houses[houseIndex],
+    house: houses[houseIndex],
     imageUrl: "https://www.kids-n-fun.com/kleurplaatjes/dobby-harry-potter/dobby-4.jpg"
    
   }
@@ -161,6 +161,8 @@ const expelledArmy = (array) => {
   }
   renderToDom("#expelled-students", domString);
   };
+
+   
   
 
 
@@ -177,10 +179,10 @@ const expelledArmy = (array) => {
 
 
 
-  // const startApp = () => {
-  //   cardsOnDom(students);
-  // }
-  // startApp();
+  const startApp = () => {
+    cardsOnDom(students);
+  }
+  startApp();
   
 
 
